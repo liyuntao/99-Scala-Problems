@@ -6,3 +6,5 @@
 *.jar
 *.scalac
 target/
+
+/.idea
