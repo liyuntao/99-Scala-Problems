@@ -13,4 +13,9 @@ object P03 {
     findNth(index, list, 0)
   }
 
+  def findNth(index: Int, list: List[Int], depth: Int): Int = {
+    if(depth == index) list.head
+    else findNth(index, list.tail, depth + 1)
+  }
+
 }
